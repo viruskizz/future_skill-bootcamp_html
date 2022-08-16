@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+</head>
+<body>
+  <h1>Quiz</h1>
+  <img width="485" src="cover.png" alt="cover">
+  <form>
+    <h2>ข้อมูลส่วนตัว</h2>
+      <label for="firstname">ชื่อจริง</label>
+      <input type="text" name="firstname" id="firstname"><br>
+      <label for="lastname">นามสกุล</label>
+      <input type="text" name="lastname" id="lastname"><br>
+      <label for="age">อายุ</label>
+      <input type="number" name="age" id="age"><br>
+      <label for="email">อีเมลล์</label>
+      <input type="email" name="email" id="email"><br>
+      <label for="tel">เบอร์โทร</label>
+      <input type="tel" name="tel" id="tel"><br>
+      <label for="country">ประเทศ</label>
+      <select>
+        <option>โปรดเลือกประเทศ</option>
+        <option value="Thailand">Thailand</option>
+        <option value="China">China</option>
+        <option value="England">England</option>
+        <option value="United State">United State</option>
+        <option value="Italy">Italy</option>
+        <option value="German">German</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+        <option value="Korea">Korea</option>
+        <option value="Spain">Spain</option>
+      </select>
+    <hr>
+    <h2>ข้อคำถาม</h2>
+    <p>1. element อะไรบ้างโครงสร้างหลักของ HTML ที่จำเป็นต้องมี ?</p>
+    <input type="checkbox" name="body" id="body"><label for="body">&ltbody&gt</label><br>
+    <input type="checkbox" name="head" id="head"><label for="head">&lthead&gt</label><br>
+    <input type="checkbox" name="doctype" id="doctype"><label for="doctype">&lt!DOCTYPE&gt</label><br>
+    <input type="checkbox" name="p" id="p"><label for="p">&ltp&gt</label><br>
+    <p>2. จะใส่ link ไปยัง website อื่น ต้องใช้ tag อะไร ?</p>
+    <input type="radio" name="link" id="link"><label for="link">&ltlink&gt<br>
+    <input type="radio" name="l" id="l"><label for="l">&ltl&gt</label><br>
+    <input type="radio" name="a" id="a"><label for="a">&lta&gt</label><br>
+    <input type="radio" name="url" id="url"><label for="url">&lturl&gt</label><br>
+  </form>
+</body>
+</html>
